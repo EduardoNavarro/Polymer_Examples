@@ -1,0 +1,95 @@
+<html>
+	<head>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>leaflet-map Demo</title>
+		<script src="../components/platform/platform.js"></script>
+		<link rel="import" href="../components/leaflet-map/leaflet-map.html">
+
+		<style>
+			body {
+				height: 100%;
+				margin: 1em;
+				font-family: Arial;
+			}
+			
+			h2 {
+				margin-top: 2em;
+			}
+
+			.nav {
+				color: #000;
+				text-decoration: none;
+				border-bottom: 1px dashed #000;
+				display: inline-block;
+				padding: 3px;
+			}
+			.nav:hover {
+				background-color: #DDF;
+			}
+			
+			leaflet-map,
+			geolocation-sample {
+				max-width: 20em;
+				height: 20em;
+				border: 1px solid #aaa;
+			}
+			geolocation-sample {
+				height: 21em;
+			}
+			pre {
+				font-size: large;
+				border: 2px dashed #00A;
+				padding: 0.5em 1em;
+				background-color: #DDD;
+				clear: all;
+			}
+			.i {
+				color: #00D
+			}
+			.a {
+				color: #008;
+			}
+			.v {
+				color: #800;
+			}
+			.c {
+				color: #080;
+			}
+			.rightbuttons {
+				float:right;
+				width: 12em;
+				margin-left: 1em;
+			}
+			.menubutton {
+				display: block;
+				padding: 1em 2em;
+				margin-bottom: 0.3em;
+				border: 1px solid black;
+				text-decoration: none;
+			}
+			
+			.downloadbutton {
+				background-color: #070;
+				color: #FFF;
+			}
+			.apidocbutton {
+				background-color: #E91E63;
+				color: #FFF;
+			}
+			.gitbutton {
+				background-color: #FFF;
+				color: #000;
+			}
+		</style>
+	</head>
+	<body>
+
+
+<h2 id="simple">Simple</h2>
+
+<p>Creating a leaflet based map is as simple as adding a &lt;leaflet-map&gt; tag after two lines of boilerplate code to load the web component platform and import the leaflet-map component.</p>
+
+<leaflet-map> </leaflet-map>
+
+</body>
+</html>
